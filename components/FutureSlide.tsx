@@ -68,9 +68,9 @@ const FutureSlide: React.FC<SlideProps> = ({ isActive }) => {
                 <div className="flex items-start gap-4">
                   <div className="mt-1 w-1.5 h-1.5 rounded-full bg-slate-300"></div>
                   <div>
-                    <h4 className="text-sm font-bold text-slate-800 mb-1">向架构师思维转变</h4>
+                    <h4 className="text-sm font-bold text-slate-800 mb-1">向前端架构师思维转变</h4>
                     <p className="text-xs text-slate-500 leading-relaxed text-justify">
-                      跳出单纯的“功能实现”视角，更多从全局视角思考技术选型、系统设计与数据流转，为未来负责更复杂的系统做准备。
+                      跳出单纯的“功能实现”视角，更多从全局视角思考前端技术选型、系统设计与数据流转，为未来负责更复杂的系统做准备。
                     </p>
                   </div>
                 </div>
@@ -79,9 +79,9 @@ const FutureSlide: React.FC<SlideProps> = ({ isActive }) => {
                 <div className="flex items-start gap-4">
                   <div className="mt-1 w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.4)]"></div>
                   <div>
-                    <h4 className="text-sm font-bold text-slate-800 mb-1">研发效能翻倍</h4>
+                    <h4 className="text-sm font-bold text-slate-800 mb-1">前端研发效能翻倍</h4>
                     <p className="text-xs text-slate-500 leading-relaxed text-justify">
-                      引入自动化工具与 AI 辅助编程，不仅提升个人的 Coding 速度，更要探索提升团队整体交付效率的路径。
+                      引入自动化工具与 AI 辅助编程，不仅提升个人的 Coding 速度，更要探索提升团队整体交付效率的路径，我认为目前还是没有达到最优的开发方式，我会继续探索提升。
                     </p>
                   </div>
                 </div>

@@ -98,7 +98,7 @@ const GrowthSlide: React.FC<SlideProps> = ({ isActive }) => {
              
              <div className="prose prose-slate max-w-none">
                <p className="text-sm text-slate-600 leading-relaxed font-light text-justify">
-                 这段时间成长肉眼可见。我已从入职时的辅助角色，蜕变为能<strong className="text-slate-900 font-medium">独立承担全流程</strong>的前端中坚力量。
+                 这段时间成长肉眼可见。我已从入职时的初级前端开发人员，蜕变为能<strong className="text-slate-900 font-medium">独立承担全流程</strong>的前端开发工程师。
                  不仅熟练掌握了 <span className="underline decoration-emerald-200/50 underline-offset-4">Vue3、Flutter、Next.js</span> 等多技术栈，更重要的是，
                  我适应了小团队<strong className="text-slate-900 font-medium">多线并行</strong>的高效节奏，学会了在复杂需求中合理规划与高效协作。
                </p>

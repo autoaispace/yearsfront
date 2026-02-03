@@ -30,7 +30,7 @@ const IntroSlide: React.FC<SlideProps> = ({ isActive, onNext }) => {
             <span className="px-2 py-0.5 bg-slate-100 border border-slate-200 rounded text-[10px] font-mono text-slate-500 uppercase tracking-wider">前端开发工程师</span>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed text-balance font-light">
-            25年5月入职至今。从单点开发到全栈交付，专注于构建高性能、高可用的企业级前端架构。
+            25年5月入职至今。从前端单点开发到全栈交付，专注于构建高性能、高可用的企业级前端架构。
           </p>
         </div>
         <div className="hidden md:flex flex-col items-end gap-1 pl-4 border-l border-slate-200/50">

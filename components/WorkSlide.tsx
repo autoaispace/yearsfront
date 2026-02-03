@@ -38,12 +38,12 @@ const WorkSlide: React.FC<SlideProps> = ({ isActive }) => {
           
           {/* 1. Core Project: AI Engineer Web (Span 2 col, 1 row) - White Style */}
           <div className="col-span-1 md:col-span-2 row-span-1 glass-card rounded-xl p-5 border-l-4 border-emerald-500 relative overflow-hidden group hover:shadow-lg transition-all">
-             <div className="absolute top-0 right-0 px-3 py-1 bg-emerald-50 text-[10px] font-bold text-emerald-600 rounded-bl-lg">核心</div>
+             <div className="absolute top-0 right-0 px-3 py-1 bg-emerald-50 text-[10px] font-bold text-emerald-600 rounded-bl-lg">5月-10月</div>
              <div className="flex flex-col h-full justify-between relative z-10">
                <div>
                  <h3 className="text-lg font-bold text-slate-900 mb-1 group-hover:text-emerald-700 transition-colors">AI 工程师 Web & 官网</h3>
                  <p className="text-xs text-slate-500 leading-relaxed w-5/6">
-                   Vue3 + JS 独立负责。解决复杂交互与性能难题，入职以来最完整的交付成果。
+                   Vue3 + JS 独立负责前端模块。解决复杂交互与性能难题，入职以来最完整的交付成果。
                  </p>
                </div>
                <div className="flex gap-2 mt-2">
@@ -63,7 +63,7 @@ const WorkSlide: React.FC<SlideProps> = ({ isActive }) => {
                  <h3 className="text-sm font-bold text-slate-800">Seekrec App</h3>
                </div>
                <p className="text-[10px] text-slate-500 leading-relaxed">
-                 入职初期接手 Flutter 移动端，快速上手 Dart 语言与移动端调试流。
+                 入职初期接手 Flutter 移动端，快速上手 Dart 语言与移动端调试流，主要做些小修改和细节优化，虽然最后这个项目没上线，但也让我快速摸清了移动端开发的路子，算是积累了经验。
                </p>
              </div>
              <span className="text-[9px] font-mono text-slate-400 border border-slate-200 px-1.5 py-0.5 rounded w-fit">Flutter</span>
@@ -79,7 +79,7 @@ const WorkSlide: React.FC<SlideProps> = ({ isActive }) => {
                <div>
                  <h3 className="text-lg font-bold text-white mb-1">衣我小程序 <span className="text-emerald-400 text-xs font-light ml-2">全栈闭环</span></h3>
                  <p className="text-xs text-slate-400 leading-relaxed w-5/6">
-                   独立完成 AI 试穿、支付、店铺核心功能。技术栈：UniApp + 微信云托管 + Express + Mongo。
+                 最近这段时间，我主要在负责“衣我”微信小程序的全栈开发，用到了uniapp、微信云托管这些技术，目前已经独立完成了第一版的闭环，像AI试穿、微信支付、店铺创建这些核心功能都做好了，从前期的逻辑梳理、开发部署，到最后上传微信，都是我全程跟进的，现在这个项目还在继续迭代完善中。
                  </p>
                </div>
                <div className="flex gap-2 mt-2">
@@ -129,7 +129,8 @@ const WorkSlide: React.FC<SlideProps> = ({ isActive }) => {
           {/* 6. Filing (Span 2) - Compact */}
           <div className="col-span-1 md:col-span-2 row-span-1 glass-card rounded-xl p-4 flex items-center justify-between hover:border-slate-300 transition-all">
              <div className="flex flex-col">
-               <div className="flex items-center gap-2">
+             <div className="flex items-center gap-2 mb-2">
+                 <div className="w-1.5 h-1.5 rounded-full bg-slate-400"></div>
                  <h3 className="text-sm font-bold text-slate-800">3款 备案前端产品</h3>
                  <span className="px-1.5 py-0.5 bg-slate-100 text-[9px] text-slate-500 rounded">合规化</span>
                </div>
